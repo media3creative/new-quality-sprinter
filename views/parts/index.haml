@@ -2,10 +2,11 @@
 - @subtitle = ""
 - @body_class = "two"
 
+- @shopify = ["ssss", "http://www.shopify.com/quality-sprinter"]
 - @sub0 = ["Parts", "/parts"]
-- @sub1 = ["Our Products", "#products"]
-- @sub2 = ["Dresser Roots", "#roots"]
-- @sub3 = ["FPZ", "fpz"]
+- @sub1 = ["Our Parts", "#parts"]
+- @sub2 = ["Engines", "#engines"]
+- @sub3 = ["Transmission Rebuilt", "#trans"]
 
 %link{:href => "stylesheets/body-2.css", :media => "all", :rel => "stylesheet", :type => "text/css"}
 
@@ -22,35 +23,14 @@
   .center
     .content
       #two.sidebar.right
-        / .subnav
-        /   %h1=@sub0[0]
-        /   .link
-        /     %h5 
-        /     %p
-        /       %a{:href => "#"+@sub1[1]}
-        /         =@sub1[0]
-        /   .link
-        /     %h5 
-        /     %p
-        /       %a{:href => "#"+@sub2[1]}
-        /         =@sub2[0]
-        /   .link
-        /     %h5 
-        /     %p
-        /       %a{:href => "#"+@sub3[1]}
-        /         =@sub3[0]
-        .text
-          %h1 The Dresser Roots Blower
-          %p Pioneered in 1854, the Roots blowers have stood the test of time and are known for their lasting endurance and stability
-        / .button
-        /   %h1 Button Sidebar
-        /   %h3 Subtitle Text
-        /   %p.link
-        /     %a{:href => "/path"} Link Text
-        / .form
-        /   %h1 Form Sidebar
-        /   .contact-form
-        /     %iframe.contact{:allowtransparency => "true", :frameborder => "0", :height => "365", :scrolling => "no", :src => "http://media3creative.wufoo.com/embed/q7p6z1/", :border => "none"}
+        .button
+          %h1 Order Today
+          %h3 TOLL FREE: 1-800-838-6194
+          %p.link
+            %a{:href => "/contact"} Contact Us
+          %h3 Place an order online:
+          %p.link
+            %a{:href => "http://www.shopify.com/quality-sprinter"} Online Catalog
       
 
       #two.main
@@ -58,23 +38,20 @@
           %a{:name => @sub1[1]}
           .section.no-image
             %h1=@sub1[0]
-            %p ACFM specializes in supplying and installing Roots blowers and equipment to industries and businesses all over the world.
-            %p At ACFM, we choose Roots blowers because of their quality craftsmanship, reliability and dependability. Roots pioneered the first blower in 1854, and their products have stood the test of time and are known for their lasting endurance and stability.
-            %p We pride ourselves on being the largest Roots distributor in the United States. No other supplier has a larger inventory of Roots blowers, blower parts, and accessories than ACFM.
+            %p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         
           %a{:name => @sub2[1]}
           .section.no-image
             %h1=@sub2[0]
-            %p ACFM Inc. is a factory-authorized distributor and service provider of Roots blowers and Roots equipment, and has over 60 years of combined experience in the application of blower systems.
-            %p We carry a full line of Roots products, including: Positive Displacement Blowers - Positive Displacement Vacuum Pumps - Centrifugal Blowers
+            %p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
             %p
-              %a{:href => "http://www.shopify.com/acfm/roots"} Shop Roots Products > >
+              %a{:href => @shopify[1]+@sub2[1]}="Shop "+@sub2[0]+" >"
                   
           %a{:name => @sub3[1]}
           .section.no-image
             %h1=@sub3[0]
-            %p FPZ is a worldwide manufacturer and supplier of regenerative blowers and accessories. We are proud to offer FPZ Regenerative Blowers to meet your needs.
+            %p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
             %p
-              %a{:href => "http://www.shopify.com/acfm/fpz"} Shop FPZ Products > >
+              %a{:href => @shopify[1]+@sub3[1]}="Shop "+@sub3[0]+" >"
 
           .spacer

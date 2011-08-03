@@ -9,14 +9,14 @@
 
 // FOOTER LINKS
 - @linkA1 = ["4124 Dayco Street Suite C | Houston, TX 77092", "/path"]
-- @linkA2 = ["832-767-1103", "/path"]
+- @linkA2 = ["1-800-838-6194", "/path"]
 - @linkA3 = ["link name", "/path"]
 - @linkA4 = ["link name", "/path"]
 - @linkA5 = ["link name", "/path"]
 
-- @linkB1 = ["Facebook", "/path"]
-- @linkB2 = ["Twitter", "/path"]
-- @linkB3 = ["LinkedIn", "/path"]
+- @linkB1 = ["Facebook", "http://www.facebook.com/name"]
+- @linkB2 = ["Twitter", "http://www.twitter.com/name"]
+- @linkB3 = ["LinkedIn", "http://www.linkedin.com/name"]
 - @linkB4 = ["link name", "/path"]
 - @linkB5 = ["link name", "/path"]
 
@@ -230,17 +230,17 @@
                 =" | "
                 %a{:href => @linkC2[1]} 
                   =@linkC2[0]              
-            .row
-              %p
-                %a{:href => @linkB1[1], :target => "_blank"} 
-                  %img.icon{:src => "/images/facebook-black.png"}
-                  =@linkB1[0]              
-                %a{:href => @linkB2[1], :target => "_blank"} 
-                  %img.icon{:src => "/images/twitter-black.png"}
-                  =@linkB2[0]
-                %a{:href => @linkB3[1], :target => "_blank"} 
-                  %img.icon{:src => "/images/linkedin-black.png"}
-                  =@linkB3[0]
+            / .row
+            /   %p
+            /     %a{:href => @linkB1[1], :target => "_blank"} 
+            /       %img.icon{:src => "/images/facebook-black.png"}
+            /       =@linkB1[0]              
+            /     %a{:href => @linkB2[1], :target => "_blank"} 
+            /       %img.icon{:src => "/images/twitter-black.png"}
+            /       =@linkB2[0]
+            /     %a{:href => @linkB3[1], :target => "_blank"} 
+            /       %img.icon{:src => "/images/linkedin-black.png"}
+            /       =@linkB3[0]
               
                   
     .m3c-bar
