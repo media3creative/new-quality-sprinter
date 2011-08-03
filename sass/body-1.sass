@@ -27,17 +27,17 @@
 				a.container
 					@extend .container-setup
 					margin: 0px ($h-gap - 1) 0 0
-					background: $option-bg url(/images/home_left.png) no-repeat
+					background: $option-bg url(/images/home_left.png) bottom right no-repeat
 			.middle
 				a.container
 					@extend .container-setup
 					margin: 0px ($h-gap - 1) 0 0
-					background: $option-bg url(/images/home_center.png) no-repeat
+					background: $option-bg url(/images/home_center.png) bottom right no-repeat
 			.right
 				a.container
 					@extend .container-setup
 					margin: 0
-					background: $option-bg url('/images/home_right.png') no-repeat
+					background: $option-bg url('/images/home_right.png') bottom right no-repeat
 
 
 .container-setup
@@ -61,15 +61,15 @@
 		color: $option-title
 		font-size: 24px
 		font-weight: 100
-		word-spacing: .1em
-		letter-spacing: .05em
+		//word-spacing: .1em
+		//letter-spacing: .05em
 	h3
 		@extend .box
-		font-family: "EmbedFont-1"
+		@extend .font-base
 		position: absolute
 		top: 75px
 		left: ($h-gap * 0.67)
-		margin: 0 76px 12px 0
+		margin: 0 60px 12px 0
 		color: $option-text
 		font-size: 12px
 		font-weight: 200
@@ -80,7 +80,7 @@
 		font-family: "EmbedFont-1"
 		position: absolute
 		bottom: ($v-gap * 0.5)
-		right: ($h-gap * 0.67)
+		left: ($h-gap * 0.67)
 		display: inline
 		color: $option-link
 		font-size: 11px

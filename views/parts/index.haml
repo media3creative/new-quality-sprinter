@@ -1,8 +1,8 @@
-- @title = " | Products"
+- @title = " | Parts"
 - @subtitle = ""
-- @body_class = "three"
+- @body_class = "two"
 
-- @sub0 = ["Product", "/products"]
+- @sub0 = ["Parts", "/parts"]
 - @sub1 = ["Our Products", "#products"]
 - @sub2 = ["Dresser Roots", "#roots"]
 - @sub3 = ["FPZ", "fpz"]
@@ -10,19 +10,12 @@
 %link{:href => "stylesheets/body-2.css", :media => "all", :rel => "stylesheet", :type => "text/css"}
 
 
-#three.image-slider
+#two.banner
   .center
-    #slider-wrapper
-      #slider.nivoSlider
-        %img{:alt => "", :src => "/images/nivo/banner-3-1.jpg", :title => "#caption1"}/
-      #caption1.nivo-html-caption
-        %h1
-          The LARGEST distributor of 
-          %br
-          Roots Blowers in the US
-        %h3 No other supplier has a larger inventory of Dresser Roots blowers, blower parts, and accessories.
-        %p.slider-link
-          = link_to "Shop Now", "http://www.shopify.com/acfm/roots"
+    .content
+      %img.banner{:alt => "", :src => "/images/banner-2.jpg"}
+
+
 
 
 .body

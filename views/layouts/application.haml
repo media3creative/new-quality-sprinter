@@ -1,31 +1,32 @@
-- @sitename = "ACFM, Inc."
+- @sitename = "Quality Sprinter"
 
 // MAIN NAVIGATION
 - @link1 = ["Home", "/home"]
-- @link2 = ["About", "/about"]
-- @link3 = ["Products", "/products"]
-- @link4 = ["Services", "/services"]
+- @link2 = ["Parts", "/parts"]
+- @link3 = ["Service", "/service"]
+- @link4 = ["About Us", "/about"]
 - @link5 = ["Contact", "/contact"]
 
 // FOOTER LINKS
-- @linkA1 = ["link name", "/path"]
-- @linkA2 = ["link name", "/path"]
+- @linkA1 = ["4124 Dayco Street Suite C | Houston, TX 77092", "/path"]
+- @linkA2 = ["832-767-1103", "/path"]
 - @linkA3 = ["link name", "/path"]
 - @linkA4 = ["link name", "/path"]
 - @linkA5 = ["link name", "/path"]
 
-- @linkB1 = ["link name", "/path"]
-- @linkB2 = ["link name", "/path"]
-- @linkB3 = ["link name", "/path"]
+- @linkB1 = ["Facebook", "/path"]
+- @linkB2 = ["Twitter", "/path"]
+- @linkB3 = ["LinkedIn", "/path"]
 - @linkB4 = ["link name", "/path"]
 - @linkB5 = ["link name", "/path"]
 
-- @linkC0 = ["Connect", "#"]
-- @linkC1 = ["Facebook", "http://www.facebook.com/name"]
-- @linkC2 = ["Twitter", "http://www.twitter.com/name"]
-- @linkC3 = @link5
-- @linkC4 = ["link name", "/path"]
-- @linkC5 = ["link name", "/path"]
+- @linkC0 = ["ssss", "ssss"]
+- @linkC1 = ["qualitypartsdp@gmail.com", "mailto:qualitypartsdp@gmail.com"]
+- @linkC2 = ["Legal", "/legal"]
+- @linkC3 = ["ssss", "#ssss"]
+- @linkC4 = ["ssss", "ssss"]
+- @linkC5 = ["ssss", "ssss"]
+
 
 !!! 5
 %html
@@ -209,40 +210,37 @@
 
     .content
       = yield
-    #footer
-      .center
-        .content
-          &nbsp;
-          .column
-            %h4 Group One
-            %a{:href => @linkA1[1]}
-              =@linkA1[0]
-            %a{:href => @linkA2[1]}
-              =@linkA2[0]
-            %a{:href => @linkA3[1]}
-              =@linkA3[0]
-            %a{:href => @linkA4[1]}
-              =@linkA4[0]
-          .column
-            %h4 Group Two
-            %a{:href => @linkB1[1]}
-              =@linkB1[0]
-            %a{:href => @linkB2[1]}
-              =@linkB2[0]
-            %a{:href => @linkB3[1]}
-              =@linkB3[0]
-            %a{:href => @linkB4[1]}
-              =@linkB4[0]
-          .column
-            %h4=@linkC0[0]
-            %a{:href => @linkC1[1]}
-              =@linkC1[0]
-            %a{:href => @linkC2[1]}
-              =@linkC2[0]
-            %a{:href => @linkC3[1]}
-              =@linkC3[0]
-            / %a{:href => @linkC4[1]}
-            /   =@linkC4[0]  
+      #footer
+        .center
+          .content
+            &nbsp;
+            .row
+              %p.logo-sm
+                %img{:src => "/images/logo-sm.png", :alt => @sitename+" Logo"}
+            .row
+              %p Quality is our business, Service is our specialty.
+            .row
+              %p
+                =@linkA1[0]
+                =" | "
+                =@linkA2[0]
+                =" | "
+                %a{:href => @linkC0[1]+@linkC1[1]} 
+                  =@linkC1[0]              
+                =" | "
+                %a{:href => @linkC2[1]} 
+                  =@linkC2[0]              
+            .row
+              %p
+                %a{:href => @linkB1[1], :target => "_blank"} 
+                  %img.icon{:src => "/images/facebook-black.png"}
+                  =@linkB1[0]              
+                %a{:href => @linkB2[1], :target => "_blank"} 
+                  %img.icon{:src => "/images/twitter-black.png"}
+                  =@linkB2[0]
+                %a{:href => @linkB3[1], :target => "_blank"} 
+                  %img.icon{:src => "/images/linkedin-black.png"}
+                  =@linkB3[0]
               
                   
     .m3c-bar
