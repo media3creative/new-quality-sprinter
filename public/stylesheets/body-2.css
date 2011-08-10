@@ -556,8 +556,8 @@ h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, 
   float: left;
   clear: left;
   width: 200px;
-  height: 300px;
-  margin: 0 15px 15px 0;
+  height: 180px;
+  margin: 7px 15px 15px 0;
   z-index: 100;
 }
 .main .content .section h1, .main .content .main h1 {

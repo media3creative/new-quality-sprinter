@@ -2,19 +2,20 @@
 - @subtitle = ""
 - @body_class = "two"
 
-- @shopify = ["ssss", "http://www.shopify.com/quality-sprinter"]
+- @shopify = ["ssss", "http://quality-sprinter.myshopify.com"]
 - @sub0 = ["Parts", "/parts"]
 - @sub1 = ["Other Parts", "#parts"]
-- @sub2 = ["Engines", "#engines"]
-- @sub3 = ["Transmissions", "#trans"]
+- @sub2 = ["Engines", "#engines", "/collections/engine-rebuilt"]
+- @sub3 = ["Transmissions", "#trans", "/collections/transmission"]
+- @sub4 = ["Rear Ends", "#rearend", "/collections/rear-ends"]
 
 %link{:href => "stylesheets/body-2.css", :media => "all", :rel => "stylesheet", :type => "text/css"}
 
 
-#two.banner
-  .center
-    .content
-      %img.banner{:alt => "", :src => "/images/banner-2.jpg"}
+/ #two.banner
+/   .center
+/     .content
+/       %img.banner{:alt => "", :src => "/images/banner-2.jpg"}
 
 
 
@@ -30,27 +31,61 @@
             %a{:href => "/contact"} Contact Us
           %h3 Place an order online:
           %p.link
-            %a{:href => "http://quality-sprinter.myshopify.com/"} Online Catalog
+            %a{:href => @shopify[1]} Online Catalog
       
 
       #two.main
         .content
           %a{:name => @sub2[1]}
-          .section.no-image
+          .section
+            %img{:src => "/images/two-1.jpg"}
             %h1=@sub2[0]
-            %p Our re-manufactured engines are disassembled by a team of technicians. Each engine that we re-manufacture comes with a new set of pistons, pistons rings and rod bearings. The block is bored or honed, which ever is needed. The crank is polished and miked and given a new set of bearings. Lastly, the head is cleaned up and fitted with a brand new set of valves and valve seals. All parts are fully inspected before being reassembled here at our location. Each engine that we sell is backed by our 1 year, 50,000 mile warranty. 
+            %p Our re-manufactured engines are disassembled by a team of technicians. Each engine that we re-manufacture comes with a new set of pistons, pistons rings and rod bearings. The block is bored or honed, which ever is needed. The crank is polished and miked and given a new set of bearings. Lastly, the head is cleaned up and fitted with a brand new set of valves and valve seals. 
             %p
-              %a{:href => @shopify[1]+@sub2[1]}="Shop "+@sub2[0]+" >"
+              %a{:href => @shopify[1]+@sub2[2]}="Shop "+@sub2[0]+" >"
                   
           %a{:name => @sub3[1]}
-          .section.no-image
+          .section
+            %img{:src => "/images/two-2.jpg"}
             %h1=@sub3[0]
-            %p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            %p Our rebuilt transmissions are completely disassembled by our team of technicians. We use a complete rebuild kit on every transmission. This includes seals, o-rings, bearings, clutch disks, and steels.
             %p
               %a{:href => @shopify[1]+@sub3[1]}="Shop "+@sub3[0]+" >"
+
+          %a{:name => @sub4[1]}
+          .section
+            %img{:src => "/images/two-3.jpg"}
+            %h1=@sub4[0]
+            %p Our re-manufactured rear ends are disassembled by our team of technicians. Each rear end that we re-manufacture starts with a complete cleaning, inside and out. The rear end is then reassembled with brand new bearings, seals, carriers, and ring and pinion.
+            %p
+              %a{:href => @shopify[1]+@sub4[1]}="Shop "+@sub3[0]+" >"
 
           %a{:name => @sub1[1]}
           .section.no-image
             %h1=@sub1[0]
-            %p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            %p
+              We also carry virtually every other part needed to repair and maintain your Sprinter, including but not limited to:
+              %br
+              &mdash; 
+              %a{:href => @shopify[1]+"/collections/accessories"}Accessories
+              %br
+              &mdash; 
+              %a{:href => @shopify[1]+"/collections/air-intake"}Air Intake
+              %br
+              &mdash; 
+              %a{:href => @shopify[1]+"/collections/electronics"}Electronics
+              %br
+              &mdash; 
+              %a{:href => @shopify[1]+"/collections/hvac"}HVAC
+              %br
+              &mdash; 
+              %a{:href => @shopify[1]+"/collections/ignition"}Ignition
+              %br
+              &mdash; 
+              %a{:href => @shopify[1]+"/collections/turbo"}Turbo
+            %p
+              %b Can't find your part?
+              %br
+              Chances are, we have it. Call us for specific order requests.
+            
           .spacer

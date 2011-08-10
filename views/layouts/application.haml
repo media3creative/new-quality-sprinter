@@ -27,6 +27,7 @@
 - @linkC4 = ["ssss", "ssss"]
 - @linkC5 = ["ssss", "ssss"]
 
+- @shopify = ["ssss", "http://quality-sprinter.myshopify.com"]
 
 !!! 5
 %html
@@ -206,6 +207,29 @@
           %li
             %a#five.topnav{:href => @link5[1]}
               =@link5[0]
+    #sub-header
+      .center
+        #main_login
+        #nav-search
+          %form.search{:action => @shopify[1]+"/search", :method => "get"}
+            %input#q.search-field{:name => "q", :type => "text"}/
+            %input#seek.search-button{:name => "search-button", :onclick => "this.parentNode.submit(); return false;", :src => "http://cdn.shopify.com/s/files/1/0095/1962/t/2/assets/icon-search.png?417 ", :type => "image"}/
+          %ul.primary-nav
+            %li.home
+              %a{:href => @shopify[1]+"/"} Catalog Home
+            %li
+              %a{:href => @shopify[1]+"/collections/all"} Browse Products
+            %li
+              %a{:href => @shopify[1]+"/products"} Categories
+            %li
+              %a{:href => @shopify[1]+"/collections/engine-rebuilt"} Engines
+            %li
+              %a{:href => @shopify[1]+"/collections/transmission"} Transmissions
+            %li
+              %a{:href => @shopify[1]+"/collections/rear-ends"} Rear Ends
+            %li.cart
+              %a{:href => @shopify[1]+"/cart"} Your Cart
+
 
 
     .content
