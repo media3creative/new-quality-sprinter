@@ -2,6 +2,9 @@
 - @subtitle = ""
 - @body_class = "one"
 
+- @shopify = ["ssss", "http://quality-sprinter.myshopify.com"]
+
+
 %link{:href => "stylesheets/body-1.css", :media => "all", :rel => "stylesheet", :type => "text/css"}
 
 #one.image-slider
@@ -24,12 +27,12 @@
           %h3 15% Off all Preventative Maintenance Services (including oil changes, transmission fluid changes, and more)
           %p.link Our Services >
       #one.middle
-        %a.container{:href => "/about"}
+        %a.container{:href => @shopify[1]}
           %h1 Nation-wide Shipping
           %h3 Orders are processed and shipped within 24 hours, anywhere in the US
           %p.link Shop Now >
       #one.right
-        %a.container{:href => "/service#special"}
+        %a.container{:href => "/contact"}
           %h1 Make a Service Appointment
           %h3 We offer installation and maintenance services by our ASE certified technicians 
           %p.link Contact Us >
