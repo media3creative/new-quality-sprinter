@@ -2,6 +2,7 @@
 - @subtitle = ""
 - @body_class = "three"
 
+- @shopify = ["ssss", "http://quality-sprinter.myshopify.com"]
 - @sub0 = ["Service", "/service"]
 - @sub1 = ["Services We Provide", "#services"]
 - @sub2 = ["Lorem Ipsum", "#li"]
@@ -29,7 +30,7 @@
             %a{:href => "/contact"} Contact Us
           %h3 Place an order online:
           %p.link
-            %a{:href => "http://www.shopify.com/quality-sprinter"} Online Catalog
+            %a{:href => @shopify[1]} Online Catalog
       
 
       #three.main
@@ -64,7 +65,7 @@
             %h2 On-line Catalog
             %p
               Our
-              %a{:href => "http://www.shopify.com/quality-sprinter/"}on-line catalog
+              %a{:href => @shopify[1]}on-line catalog
               lists some of the products we carry in our physical store. If you don't see what you are looking for, please give us a call at 1-800-838-6194.
             
         
