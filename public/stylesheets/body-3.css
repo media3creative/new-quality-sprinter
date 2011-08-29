@@ -1,4 +1,4 @@
-.font-helvetica, .font-base, .main .content .section p, .main .content .main p {
+.font-helvetica, .font-base {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
@@ -212,7 +212,7 @@ b {
   font-weight: bold;
 }
 
-.font-helvetica, .font-base, .main .content .section p, .main .content .main p {
+.font-helvetica, .font-base {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
@@ -1511,6 +1511,7 @@ div.ppt {
   border-bottom: 1px solid #cccccc;
 }
 .main .content .section p, .main .content .main p {
+  font-family: "Embed-Helvetica";
   width: 100%;
   margin: 7px 0 10px 0;
   padding: 0 0 0 7px;

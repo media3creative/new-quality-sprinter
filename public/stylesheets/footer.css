@@ -1,4 +1,4 @@
-.font-helvetica, .font-base, #footer .center, #footer .center .content .row p, #footer .center .content .row a {
+.font-helvetica, .font-base {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
@@ -212,7 +212,7 @@ b {
   font-weight: bold;
 }
 
-.font-helvetica, .font-base, #footer .center, #footer .center .content .row p, #footer .center .content .row a {
+.font-helvetica, .font-base {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
@@ -370,6 +370,7 @@ h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, 
 }
 
 #footer .center {
+  font-family: "Embed-Helvetica";
   margin: 0 auto;
   padding: 15px 0 60px;
 }
@@ -393,6 +394,7 @@ h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, 
   border-right: none;
 }
 #footer .center .content .row p {
+  font-family: "Embed-Helvetica";
   position: relative;
   margin: 0 0;
   color: #777777;
@@ -405,6 +407,7 @@ h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, 
   margin-bottom: -6px;
 }
 #footer .center .content .row a {
+  font-family: "Embed-Helvetica";
   display: inline;
   margin: 0 0 0.3em 0;
   color: #e72236;

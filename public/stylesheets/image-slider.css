@@ -1,4 +1,4 @@
-.font-helvetica, .font-base, .image-slider .center h3 {
+.font-helvetica, .font-base {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
@@ -212,7 +212,7 @@ b {
   font-weight: bold;
 }
 
-.font-helvetica, .font-base, .image-slider .center h3 {
+.font-helvetica, .font-base {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
@@ -391,6 +391,7 @@ h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, 
   letter-spacing: 0.05em;
 }
 .image-slider .center h3 {
+  font-family: "Embed-Helvetica";
   position: relative;
   top: 0px;
   left: 0;

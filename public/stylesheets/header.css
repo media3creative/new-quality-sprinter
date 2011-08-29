@@ -442,7 +442,7 @@ h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, 
 
 ul.primary-nav {
   position: relative;
-  margin: 6px 13px 0 0;
+  margin: 4px 13px 0 0;
   z-index: 9;
   float: right;
   clear: left;
@@ -465,7 +465,8 @@ ul.primary-nav a {
   letter-spacing: 0.05em;
 }
 ul.primary-nav a:hover {
-  color: #93101d;
+  color: #cacaca;
+  text-decoration: none;
 }
 ul.primary-nav li.cart {
   border-left: 1px solid #d3c8c5;

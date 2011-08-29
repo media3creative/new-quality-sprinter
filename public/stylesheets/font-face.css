@@ -38,11 +38,11 @@
 /* Standard Fonts */
 @font-face {
     font-family: 'Embed-Helvetica';
-    src: url('/fonts/Helvetica/helveticaneue-webfont.eot');
-    src: url('/fonts/Helvetica/helveticaneue-webfont.eot?#iefix') format('embedded-opentype'),
-         url('/fonts/Helvetica/helveticaneue-webfont.woff') format('woff'),
-         url('/fonts/Helvetica/helveticaneue-webfont.ttf') format('truetype'),
-         url('/fonts/Helvetica/helveticaneue-webfont.svg#helveticaneueMedium') format('svg');
+    src: url('/fonts/Helvetica/helveticalight-webfont.eot');
+    src: url('/fonts/Helvetica/helveticalight-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/Helvetica/helveticalight-webfont.woff') format('woff'),
+         url('/fonts/Helvetica/helveticalight-webfont.ttf') format('truetype'),
+         url('/fonts/Helvetica/helveticalight-webfont.svg#helveticalightMedium') format('svg');
     font-weight: 100;
     font-style: normal;
 

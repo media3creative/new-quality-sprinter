@@ -1,4 +1,4 @@
-.font-helvetica, .font-base, .container-setup h3, .body .center .content .left a.container h3, .body .center .content .middle a.container h3, .body .center .content .right a.container h3 {
+.font-helvetica, .font-base {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
@@ -212,7 +212,7 @@ b {
   font-weight: bold;
 }
 
-.font-helvetica, .font-base, .container-setup h3, .body .center .content .left a.container h3, .body .center .content .middle a.container h3, .body .center .content .right a.container h3 {
+.font-helvetica, .font-base {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
@@ -416,6 +416,7 @@ h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, 
   font-weight: 100;
 }
 .container-setup h3, .body .center .content .left a.container h3, .body .center .content .middle a.container h3, .body .center .content .right a.container h3 {
+  font-family: "Embed-Helvetica";
   position: absolute;
   top: 75px;
   left: 20.1px;
