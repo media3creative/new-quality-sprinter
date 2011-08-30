@@ -5,7 +5,7 @@
 - @shopify = ["ssss", "http://quality-sprinter.myshopify.com"]
 - @sub0 = ["Parts", "/parts"]
 - @sub1 = ["Other Parts", "#parts"]
-- @sub2 = ["Engines", "#engines", "/collections/engine-rebuilt"]
+- @sub2 = ["Engines", "#engines", "/collections/engine-remanufacture"]
 - @sub3 = ["Transmissions", "#trans", "/collections/transmission"]
 - @sub4 = ["Rear Ends", "#rearend", "/collections/rear-ends"]
 
@@ -50,7 +50,7 @@
             %h1=@sub3[0]
             %p Our rebuilt transmissions are completely disassembled by our team of technicians. We use a complete rebuild kit on every transmission. This includes seals, o-rings, bearings, clutch disks, and steels.
             %p
-              %a{:href => @shopify[1]+@sub3[1]}="Shop "+@sub3[0]+" >"
+              %a{:href => @shopify[1]+@sub3[2]}="Shop "+@sub3[0]+" >"
 
           %a{:name => @sub4[1]}
           .section
@@ -58,7 +58,7 @@
             %h1=@sub4[0]
             %p Our re-manufactured rear ends are disassembled by our team of technicians. Each rear end that we re-manufacture starts with a complete cleaning, inside and out. The rear end is then reassembled with brand new bearings, seals, carriers, and ring and pinion.
             %p
-              %a{:href => @shopify[1]+@sub4[1]}="Shop "+@sub4[0]+" >"
+              %a{:href => @shopify[1]+@sub4[2]}="Shop "+@sub4[0]+" >"
 
           %a{:name => @sub1[1]}
           .section.no-image
