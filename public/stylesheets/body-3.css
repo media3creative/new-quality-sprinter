@@ -24,9 +24,9 @@
   /* For Mozilla/Gecko (Firefox etc) */
   background: -moz-linear-gradient(top, #e72236, #93101d);
   /* For Internet Explorer 5.5 - 7 */
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#004f94, endColorstr=#003461);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#e62236, endColorstr=#93101d);
   /* For Internet Explorer 8 */
-  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#004f94, endColorstr=#003461)";
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#e62236, endColorstr=#93101d)";
 }
 
 .bg-gradient-reverse {
@@ -35,9 +35,9 @@
   /* For Mozilla/Gecko (Firefox etc) */
   background: -moz-linear-gradient(top, #93101d, #e72236);
   /* For Internet Explorer 5.5 - 7 */
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#003461, endColorstr=#004f94);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#93101d, endColorstr=#e62236);
   /* For Internet Explorer 8 */
-  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#003461, endColorstr=#004f94)";
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#93101d, endColorstr=#e62236)";
 }
 
 .bg-gradient-secondary {
@@ -238,9 +238,9 @@ b {
   /* For Mozilla/Gecko (Firefox etc) */
   background: -moz-linear-gradient(top, #e72236, #93101d);
   /* For Internet Explorer 5.5 - 7 */
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#004f94, endColorstr=#003461);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#e62236, endColorstr=#93101d);
   /* For Internet Explorer 8 */
-  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#004f94, endColorstr=#003461)";
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#e62236, endColorstr=#93101d)";
 }
 
 .bg-gradient-reverse {
@@ -249,9 +249,9 @@ b {
   /* For Mozilla/Gecko (Firefox etc) */
   background: -moz-linear-gradient(top, #93101d, #e72236);
   /* For Internet Explorer 5.5 - 7 */
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#003461, endColorstr=#004f94);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#93101d, endColorstr=#e62236);
   /* For Internet Explorer 8 */
-  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#003461, endColorstr=#004f94)";
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#93101d, endColorstr=#e62236)";
 }
 
 .bg-gradient-secondary {

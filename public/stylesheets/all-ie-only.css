@@ -8,8 +8,18 @@ body {
 	text-align: center;
 }
 
+#header {}
+
+#header .center {
+	background: #93101d; !important
+}
+
 h1, h2, h3, h4, h5, h6, p, a {
 	text-align: left; !important
+}
+
+.button p, #footer p {
+	text-align: center; !important
 }
 
 .m3c-bar p {
