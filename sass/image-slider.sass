@@ -15,7 +15,7 @@
 	margin: 0 auto
 	.center
 		@extend .center-container
-		padding: $v-gap 0 ($v-gap/2)
+		padding: 0 0 ($v-gap/2)
 		h1
 			@extend .box
 			font-family: "EmbedFont-1"
@@ -65,7 +65,33 @@
 				font-weight: 200
 				text-decoration: none
 				text-transform: uppercase
-			
+
+#phone
+	.center
+		@extend .center-container
+		@extend .box
+		.phone-box
+			@extend .corner-top
+			position: relative
+			width: 270px
+			height: 40px
+			margin: 0 0 0 ($h-gap * 3)
+			background: $primary
+			border-bottom: 2px solid $gray-med
+			img
+				position: relative
+				+float-right
+				width: 30px
+				height: 30px
+				top: 4px
+			p
+				font-family: "EmbedFont-1"
+				+float-right
+				margin: 6px 25px 0 0
+				color: #fff
+				font-size: 22px
+				font-weight: bold
+
 	
 	
 //NIVO SLIDER
@@ -176,7 +202,7 @@ a.nivo-nextNav
 	height: $slider-height
 	margin: 0 auto
 	overflow: hidden
-	border: 1px solid $image-slider-border	
+	//border: 1px solid $image-slider-border	
 	background: $image-slider-bg
 
 #slider
